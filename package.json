@@ -1,0 +1,24 @@
+{
+  "name": "07-mevn",
+  "version": "1.0.0",
+  "description": "Test con Webpack",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "devbabel": "nodemon src/app.js --exec babel-node",
+    "start": "babel-node src/app.js --exec"
+  },
+  "keywords": [],
+  "author": "Enrique Marin",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
